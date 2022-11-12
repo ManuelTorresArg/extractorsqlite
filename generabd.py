@@ -2,7 +2,7 @@ import sqlite3 as sqlite3
 import barcodenumber
 import re
 
-connnection = sqlite3.connect('mis_datos.db')
+connnection = sqlite3.connect('mis_datos2.db')
 cursor = connnection.cursor()
 
 miTupla = []
