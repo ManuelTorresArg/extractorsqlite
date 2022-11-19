@@ -8,6 +8,9 @@ cursor = connnection.cursor()
 miTupla = []
 MiTupladePares = []
 
+
+# Creamos la bd con los campos CABYS CODBAR IVA
+
 cursor.execute('''CREATE TABLE IF NOT EXISTS
                   articulos (mi_index INTEGER PRIMARY KEY,
                   codbar VARCHAR(13),
